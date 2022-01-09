@@ -1,0 +1,4 @@
+/Users/ovidiu/OVIDIU/PROGRAMMING_STUFFS/C++/ffmpeg/build/CMakeFiles/rebuild_cache.dir
+/Users/ovidiu/OVIDIU/PROGRAMMING_STUFFS/C++/ffmpeg/build/CMakeFiles/edit_cache.dir
+/Users/ovidiu/OVIDIU/PROGRAMMING_STUFFS/C++/ffmpeg/build/CMakeFiles/stream.dir
+/Users/ovidiu/OVIDIU/PROGRAMMING_STUFFS/C++/ffmpeg/build/CMakeFiles/remux.dir
