@@ -1,6 +1,6 @@
+// based on https://ffmpeg.org/doxygen/trunk/remuxing_8c-example.html
 #include <libavutil/timestamp.h>
 #include <libavformat/avformat.h>
-
 
 int main(int argc, char **argv)
 {
