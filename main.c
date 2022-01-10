@@ -24,6 +24,8 @@ int main(int argc, char **argv)
   in_filename  = argv[1];
   out_filename = argv[2];
 
+  //  decoding(in_filename, input_format_context, ret);
+
   if ((ret = avformat_open_input(&input_format_context, in_filename, NULL, NULL)) < 0) {
     fprintf(stderr, "Could not open input file '%s'", in_filename);
     goto end;
