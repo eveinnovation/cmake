@@ -10,6 +10,10 @@ set(FFMPEG_DEV_ROOT /home/ovidiu/c++/ffmpeg)
 
 # set ffmpeg develop environment
 include_directories(${FFMPEG_DEV_ROOT}/include)
+link_directories(${FFMPEG_DEV_ROOT}/lib)
+link_directories(${FFMPEG_DEV_ROOT}/lib64)
+
+
 link_libraries(
     avcodec
     avformat

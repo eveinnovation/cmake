@@ -87,6 +87,6 @@ Hello World!
 
 Visit [Build and run your first application with cmake](http://kabiliravi.com/index.php/software/programming/mycpptutorial/environment-setup/build-and-run-your-first-application-with-cmake/) to learn more about this sample.
 
-gcc -I/home/ovidiu/c++/ffmpeg/include/ main.c \
+gcc -I/home/ovidiu/c++/ffmpeg/include/ -L/home/ovidiu/c++/ffmpeg/lib/ main.c \
 -lavcodec -lavformat -lavfilter -lavdevice -lswresample -lswscale -lavutil \
 -o stream
