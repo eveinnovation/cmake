@@ -1,5 +1,6 @@
 #include <libavutil/timestamp.h>
 #include <libavformat/avformat.h>
+#include "remux.h"
 
 
 int main(int argc, char **argv)
