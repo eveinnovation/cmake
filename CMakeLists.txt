@@ -6,7 +6,7 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
-set(FFMPEG_DEV_ROOT /home/ovidiu/c++/ffmpeg)
+set(FFMPEG_DEV_ROOT /opt/ffmpeg)
 
 # set ffmpeg develop environment
 include_directories(${FFMPEG_DEV_ROOT}/include)

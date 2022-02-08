@@ -1,0 +1,13 @@
+
+version: "3.9"
+services:
+  ffmpeg-build-ubuntu-20.04:
+    container_name: ffmpeg-build-ubuntu-20.04
+    command: "sh /data/init.sh"
+    build:
+      context: .
+    image: ffmpeg-build-ubuntu-20.04
+    volumes:
+      - .:/data
+    environment:
+      - LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/ffmpeg/lib/:/opt/ffmpeg/lib64/
