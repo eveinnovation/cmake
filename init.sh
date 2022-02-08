@@ -1,4 +1,4 @@
-LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/ffmpeg/lib/:/opt/ffmpeg/lib64/
+echo $MY_ENV_VAR;\
 DIR=build && \
 rm -rf ${DIR}; \
 mkdir -p ${DIR}; \

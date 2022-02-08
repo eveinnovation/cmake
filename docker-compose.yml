@@ -10,4 +10,4 @@ services:
     volumes:
       - .:/data
     environment:
-      - LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/ffmpeg/lib/:/opt/ffmpeg/lib64/
+      - MY_ENV_VAR="testing"
